@@ -1,0 +1,551 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+    <link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link href="assets/css/style.css" rel="stylesheet">
+    
+    
+    <title>BHTPA | Digital Revolution |</title>
+</head>
+<body class="digitalrev-page">
+    <div class="page-container">
+        <!-- ======= Header ======= -->
+      <section class="page-header p-0">
+        <header id="header" class="">
+          <!--Navbar -->
+          <nav class=" navbar navbar-light light-blue">
+              <div class="full-nav">
+                        <div class="row">
+                            <div class="col-md-3 first-col">
+                              <a class="nav-link navbar-brand digitalbd-logo" href="\">
+                                <img src="assets/img/digitalbd-logo.png" height="auto" class="img-fluid"
+                                 alt="digitalbd logo"> 
+                            </a>
+                                <a class="nav-link navbar-brand" href="\">
+                                    <img src="assets/img/bhtpa-logo180.png" height="auto" class="img-fluid"
+                                     alt="bhtpa logo"> 
+                                </a>        
+                            </div>
+                            <div class="col-md-7 menu-col">
+                                <!-- Collapse button -->
+                                <div class="menu-item text-white">
+                                    <div class="left-side">
+                                    </div><!--End left side-->
+                                    <div class="right-side">
+                                        <span class="language">
+                                            <a class="text-white" href="#">ENG</a> | 
+                                            <a class="text-muted" href="#">BN</a>
+                                        </span>
+                                            
+                                        <!-- Button carousel popup
+                                        <button type="button" class="btn btn-default text-white first-btn" data-toggle="modal" data-target="#modalCarousel">
+                                            <i class="fas fa-th"></i></button>-->
+                                        <!-- Button hamburgur manu popup-->
+                                        <button type="button" class="btn btn-default text-white" data-toggle="modal" data-target="#modalPoll-1"><i
+                                        class="fas fa-bars"> </i> MENU</button>
+                                          
+                                    </div><!--End right side-->
+
+                                </div>
+                            </div>
+                            <div class="col-md-2 last-col">
+                                <a href="#" class="navbar-brand float-none">
+                                <img src="assets/img/Mujib-Borsho.jpg" height="auto" class="align-top img-fluid"
+                                alt="Mujib-Borsho logo"> </a>
+                            </div>
+                        </div>
+              </div>        
+              <!-- toggle navigation -->
+              <div class="modal fade right toggle-menu" id="modalPoll-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true" data-backdrop="false">
+                  <div class="modal-dialog modal-full-height modal-right modal-notify modal-info" role="document">
+                      <div class="modal-content">
+                          <!--Header-->
+                          <div class="modal-header">
+                                          
+
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true" class="white-text">×</span> Close
+                                          </button>
+                          </div>
+
+                          <!--Body-->
+                          <div class="modal-body">
+                              <ul class="navbar-nav justify-content-between ml-auto">
+                                  <li class="nav-item active">
+                                      <a class="nav-link" href="\">Home <span class="sr-only">(current)</span></a>
+                                  </li>
+                                  
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      About
+                                    </a>
+                                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a   class="dropdown-item" href="#">Park Information</a>
+                                        <a class="dropdown-item" href="#">All focal point</a>
+                                        <a class="dropdown-item" href="#">Annual Report</a>
+                                      </div>
+                                  </li>
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Act, Rules & Guidelines
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <a class="dropdown-item" href="#">Act</a>
+                                      <a class="dropdown-item" href="#">Rules</a>
+                                      <a class="dropdown-item" href="#">Guidelines</a>
+                                    </div>
+                                  </li>
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Project</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <a class="dropdown-item" href="#">Running Project</a>
+                                      <a class="dropdown-item" href="#">Operational Project</a>
+                                    </div>
+                                  </li>
+                                  <li class="nav-item dropdown">
+                                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Service
+                                              </a>
+                                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                  <a class="dropdown-item" href="/one-stop-services.html">One Stop Service</a>
+                                                  
+                                                </div>
+                                            </li>
+
+                                            <li class="nav-item dropdown">
+                                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Gallery
+                                              </a>
+                                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                  <a class="dropdown-item" href="#">Photo</a>
+                                                  <a class="dropdown-item" href="#">Video</a>
+                                                </div>
+                                            </li>
+                                            <li class="nav-item">
+                                              <a   class="nav-link" href="#">Key Personal</a>
+                                            </li>
+                                            <li class="nav-item">
+                                              <a   class="nav-link" href="#">Investors List</a>
+                                            </li>
+
+                                            <li class="nav-item">
+                                              <a   class="nav-link" href="#">Contact</a>
+                                            </li>    
+                                          </ul>
+
+                                </div>
+
+                                <!-- modal Footer-->
+                                <div class="modal-footer">
+                                          <!-- Search form -->
+                                          <form class="form-inline d-flex  lg-form form-lg active-pink active-pink-2 mt-2">
+                                            
+                                            <input class="form-control form-control-sm ml-3 w-90" type="text" placeholder="Search"
+                                              aria-label="Search"><i class="fas fa-search fa-lg ml-2" aria-hidden="true"></i>
+                                          </form>  
+                                </div>
+                            </div><!--End modal content-->
+                        </div>
+                    </div> <!-- Modal: modalPoll -->
+                    <!--/. toggle navigation -->
+                </nav>
+                          <!--/.Navbar -->
+            </header>
+      </section><!-- End Header -->
+
+          <div class="main-content">
+              <section class="keydrive">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-4 first-col">
+                        <div class="content">
+                          <h2 class="title">Key Drivers of the <span style="text-transform: uppercase; font-weight: 600;">Digital Revolution</span></h2>
+                        </div>
+                      </div>
+                      <div class="col-md-8 last-col">
+                        <div class="sub-titile">
+                          <h3>The country is experiencing an exciting phase of large-scal digitalization.</h3>
+                        </div>
+                        <div class="imgtext">
+                          <img src="/assets/img/bhtpa-logo180.png" alt="standerd chatered" class="img-fluid">
+                          <p>Bangladesh is one of only two ASEAN and South Asian economics to register positive growth in 2020 despite a global recession during COVID-19.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </section><!--End key drive section-->
+
+              <section class="economy">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-7 first-col">
+                      <div class="content">
+                        <div class="title">
+                          <h3>Fast Emerging Economy with a Promising Future</h3>
+                        </div>
+                        <div class="textcontent">
+                          <div class="items first-items">
+                            <div class="itemone">
+                              <div class="item wrap">
+                                <i class="fas fa-layer-group fa-2x"></i>
+                                <p>A Fast Growing Economy</p>
+                              </div>
+                              <div class="item wrap">
+                                <p>Steady GPD Growth (-8%) Since 2008</p>
+                                <p class="bordertop">Among countries with minimum GDP of USD 100BN</p>
+                              </div>
+                            </div><!--End itemtwo-->
+
+                            <div class="itemtwo">
+                              <div class="item wrap">
+                                <i class="fas fa-layer-group fa-2x"></i>
+                                <p>A young country</p>
+                              </div>
+                              <div class="item">
+                                <p>50% Population is under 25 years old</p>
+                              </div>
+
+                            </div><!--End itemtwo-->
+
+                          </div><!--End First item-->
+
+                          <div class="items second-item">
+                            <div class="itemone">
+                              <div class="item wrap">
+                                <i class="fas fa-layer-group fa-2x"></i>
+                                <p>A Global Innovation</p>
+                              </div>
+                              <div class="item wrap">
+                                <p>NO.1 Mobile financial service (bkash)</p>
+                                <p class="bordertop">2<sup>nd</sup> Largest RMG exporter globally</p>
+                              </div>
+                            </div><!--End itemtwo-->
+                            
+                            <div class="itemtwo">
+                              <div class="item wrap">
+                                <i class="fas fa-layer-group fa-2x"></i>
+                                <p>A Suging consumer market</p>
+                              </div>
+                              <div class="item">
+                                <p>9 <sup>th</sup> Largest mobile market (160+mn) users</p>
+                              </div>
+
+                            </div><!--End itemtwo-->
+
+                          </div><!--End second item-->
+                        </div><!--End text content-->
+                      </div><!--End content-->
+                    </div>
+                    <div class="col-md-5 second-col">
+                      <div class="content">
+                        <div class="title">
+                          <h3>Leapfrogging in ICT and Digital Adoption</h3>
+                        </div>
+                        <div class="textcontent">
+                          <div class="items third-items">
+                            <div class="itemone">
+                              <div class="item d-flex flex-row align-items-center justify-content-between">
+                                <i class="fas fa-mobile-alt fa-2x"></i>
+                                <p>94 MN+ Internet users</p>
+                                <p>160 MN+ Mobile subscribers</p>
+                              </div>
+
+                              <div class="item">
+                                <ul>
+                                  <li> Connectivity backbone is being developed across 450+ Upazillas of 64 districs of country launched.</li>
+                                  <li> Bangobondhu satelite in 2018</li>
+                                  <li> %G network connectivity has already been tested.</li>
+                                </ul>
+                              </div>
+                            </div><!--End itemone-->
+                            <div class="itemtwo">
+                                <div class="item d-flex flex-row align-items-center justify-content-between">
+                                  <i class="fas fa-users fa-2x"></i>
+                                  <p>600 +E- Service</p>
+                                  <p>2 MN+ E- service users (per month)</p>
+                                </div>
+
+                            </div><!--End itemtwo-->
+                            <div class="itemthree">
+                              <div class="item d-flex flex-row align-items-center justify-content-between">
+                                <i class="fas fa-address-card fa-2x"></i>
+                                <p>100 MN+ Digital card issued</p>
+                                <p>160 MN+ Biometric sims issued</p>
+                              </div>
+                            </div>
+
+                          </div><!--End second items-->
+
+                          
+                        </div><!--End text content-->
+                      </div><!--End content-->
+                    </div>
+                  </div>
+                </div>
+              </section>
+          </div>
+        <!-- Footer -->
+        <footer class="page-footer  font-small blue pt-4 bg-footer">
+
+            <!-- Footer Links -->
+            <div class="container footer-top text-center text-md-left">
+            
+                <!-- Grid row -->
+                <div class="row">
+            
+                <!-- Grid column -->
+                <div class="col-md-3 mx-auto">
+            
+                    <!-- Links -->
+                    <h3 class="font-weight-bold text-uppercase mt-3 mb-4">Finding Hi-Tech Park</h3>
+            
+                    <ul class="list-unstyled">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Act, Rules & Guidelines</a></li>
+                    <li><a href="#">National Intrigety</a></li>
+                    <li><hr></li>
+                    <li><a href="#">Anual Performance</a></li>
+                    <li><a href="#">Agreement</a></li>
+                    <li><hr></li>
+                    <li><a href="#">Grievance Redress System</a></li>
+                    </ul>
+            
+                </div>
+                <!-- Grid column -->
+            
+                <hr class="clearfix w-100 d-md-none">
+            
+                <!-- Grid column -->
+                <div class="col-md-3 mx-auto">
+            
+                    <!-- Links -->
+                    <h3 class="font-weight-bold text-uppercase mt-3 mb-4">About BHTPA</h3>
+            
+                    <ul class="list-unstyled">
+                    <li><a href="#">Advisor Massages</a></li>
+                    <li><a href="#">HSMS Massages</a></li>
+                    <li><a href="#">MD's Massages</a></li>
+                    <li><a href="#">BHTPA At A Glance</a></li>
+                    <li><a href="#">BHTPA Services</a></li>
+                    <li><a href="#">BHTPA Management</a></li>
+                    <ul>
+                        <li><a href="#">Key Personal</a></li>
+                        <li><a href="#">Project Statistics</a></li>
+                    </ul>
+                    </ul>
+            
+                </div>
+                <!-- Grid column -->
+            
+                <hr class="clearfix w-100 d-md-none">
+            
+                <!-- Grid column -->
+                <div class="col-md-3 mx-auto">
+            
+                    <!-- Links -->
+                    <h3 class="font-weight-bold text-uppercase mt-3 mb-4">Important Links</h3>
+            
+                    <ul class="list-unstyled">
+                        <li><a href="tel:333">Gov’t Info &amp; service</a></li>
+                        <li><a href="tel:999">National Emergency Service</a></li>
+                        <li><a href="tel:109">Prevent women &amp; child harassment</a></li>
+                        <li><a href="tel:106">Corruption Prevent Commission</a></li>
+                        <li><a href="http://ictd.gov.bd/">ICT Division</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="http://techcitybd.net/">Tech City BD</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="http://bhtc.bhtpa.gov.bd/">Bangabandu Hi-Tech City Project</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="http://bcc.gov.bd/">Bangladesh Computer Council (BCC)</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="http://www.connectingstartupsbd.net/">Connecting Startup Bangladesh</a></li>
+                        
+                    </ul>
+            
+                </div>
+                <!-- Grid column -->
+            
+                <hr class="clearfix w-100 d-md-none">
+            
+                <!-- Grid column -->
+                <div class="col-md-3 mx-auto social-links">
+
+                    <!-- Links -->
+                    <h3 class="font-weight-bold text-uppercase mt-3 mb-4">Quick Links</h3>
+                    <ul class="list-unstyled">
+                    <li><a href="#">Tenders / EOI Notice</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    </ul>
+
+                    <hr>
+
+                    <h3 class="font-weight-bold text-uppercase mt-3 mb-4">Media</h3>
+                    <ul class="list-unstyled d-flex flex-row  justify-content-center">
+                    <li>
+                        <a href="https://www.facebook.com/BHTPA/" title="Facebook" target="_blank" class="fb-ic">
+                        <i class="fab fa-facebook-f fa-lg white-text mr-md-1 mr-3 fa-lg"> </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/BHTPA2010" title="Twitter" target="_blank" class="tw-ic">
+                        <i class="fab fa-twitter fa-lg white-text mr-md-1 mr-3 fa-lg"> </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCERgWYFRyE20JmhLrS8-ytg" title="Youtube" target="_blank" class="gplus-ic">
+                        <i class="fab fa-youtube fa-lg white-text mr-md-1 mr-3 fa-lg"> </i>
+                        </a>
+                    </li>
+                    
+                    </ul>
+                    
+                    <hr>
+
+                    <h3 class="font-weight-bold text-uppercase mt-4 mb-4">Subscribe Now</h3>
+                    <!-- Material form subscription -->
+                    <div class="subscription">
+
+                        <!--Card content-->
+                        <div class="card-content">
+
+                            <!-- Form -->
+                            <form class="subscription-form input-group" style="color: #757575;" action="#!">
+                                <!-- E-mai -->
+                                    <input type="email" id="emailField" class="form-control" placeholder="E-mail"> 
+                                
+                                <!-- Sign in button -->
+                                <button class="btn btn-danger btn-rounded  waves-effect" type="submit">Submit</button>
+
+                            </form>
+                            <!-- Form -->
+
+                        </div>
+
+                    </div>
+                    <!-- Material form subscription -->
+                </div>
+                <!-- Grid column -->
+            
+                </div>
+                <!-- Grid row -->
+            
+            </div>
+            <!-- Footer Links -->
+            
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3 bg-copyright">© 2020 Copyright:
+                <a href="https://softxltd.com/"> BHTPA.</a> | <span>Design & Development by <a href="https://www.softxltd.com/" target="_blank">Softx Technology Ltd</a></span>
+            </div>
+            <!-- Copyright -->
+            
+    </footer>
+    <!-- End Footer -->
+
+    <!--floating corner-->
+    <div class="floating-corner p-2">
+        <div class="row row-sm align-items-center justify-content-end">
+        <div class="icon corner-icon">
+            <i class="fas fa-angle-right fa-lg red-text"></i>
+        </div>
+        <div class="content d-flex flex-column pr-2">
+            <div class="first-item">
+            <div class="investment-corner p-1">
+                <a href="#" class=" btn btn-light" target="_blank" rel="noopener noreferrer">
+                Investment
+                </a>
+            </div>
+            <div class="startup-corner p-1">
+                <a href="https://startupbangladesh.gov.bd/" class=" btn btn-light" target="_blank" rel="noopener noreferrer">Startup</a>
+            </div>
+            </div>
+
+            <div class="last-item pt-3">
+            <div class="oss p-1">
+                <a href="https://ossbhtpa.gov.bd/" class=" btn btn-light" target="_blank" rel="noopener noreferrer">
+                One Stop Service
+                </a>
+            </div>
+            <div class="business-manager p-1">
+                <a href="https://startupbangladesh.gov.bd/" class=" btn btn-light" target="_blank" rel="noopener noreferrer">Contact Business Manager</a>
+            </div>
+            <div class="training-class p-1">
+                <a href="#" class=" btn btn-light" target="_blank" rel="noopener noreferrer">Training and Clases </a>
+            </div>
+            </div>
+            
+        </div>
+        
+        </div><!--/row-->
+    </div>
+    <!--/End floating corner-->
+
+        <!--Chatbox Modal-->
+    <button type="button" class="btn btn-default chat-btn" data-toggle="modal" data-target="#myModal">
+        <i class="fab fa-facebook-messenger fa-4x"></i>
+    </button>
+    <div class="modal fade chatboxmodal" id="myModal">
+        <div class="modal-dialog modal-dialog-scrollable modal-bottom-right">
+        <div class="modal-content">
+    
+            <!-- Modal Header -->
+            <div class="modal-header">
+            <h6 class="active-title"><i class="fas fa-user-alt fa-lg mr-2"></i>Active Now</h6>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+    
+            <!-- Modal body -->
+            <div class="modal-body">
+            <div class="sender px-1 py-2">
+                <i class="fas fa-user-alt fa-lg mr-2"></i><span class="txt">Whether we can look forward</span>
+            </div>
+            <div class="receber  px-1 py-2 text-right">
+                <span class="txt">Whether we can look forward</span><i class="fas fa-user-alt fa-lg ml-2"></i>
+            </div>
+            <div class="sender  px-1 py-2">
+                <i class="fas fa-user-alt fa-lg mr-2"></i><span class="txt">Whether we can look forward</span>
+            </div>
+            <div class="receber  px-1 py-2 text-right">
+                <span class="txt">Whether we can look forward</span><i class="fas fa-user-alt fa-lg ml-2"></i>
+            </div>
+            <div class="receber  px-1 py-2 text-right">
+                <span class="txt">Whether we can look forward</span><i class="fas fa-user-alt fa-lg ml-2"></i>
+            </div>
+            </div>
+    
+            <!-- Modal footer -->
+            <div class="modal-footer">
+            <form action="">
+                <i class="fas fa-smile fa-lg mx-2"></i><i class="fas fa-file-pdf fa-lg mx-2"></i><i class="fas fa-image fa-lg mx-2"></i><input class="input-box" type="text" placeholder="Aa">
+            </form>
+            </div>
+    
+        </div>
+        </div>
+    </div>
+    
+    <!--End Chatbox Modal-->
+
+    <a href="#"  onclick="topFunction()" class="back-to-top" id="backTop" style="display: inline;"><i class="fas fa-chevron-up"></i></a>
+
+    </div>
+
+    <!--Option 2: jQuery, Popper.js, and Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="assets/js/grayscalemap.js" ></script>
+    <script src="assets/js/jquery.subtle-slideshow.js"></script>
+    <script src="assets/js/script.js" ></script>
+    
+    
+    </body>
+    </html>

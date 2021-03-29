@@ -1,0 +1,1316 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+    <link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link href="assets/css/style.css" rel="stylesheet">
+    
+    
+    <title>BHTPA | Template 4 |</title>
+</head>
+<body>
+    <div class="page-container">
+          <!-- ======= Header ======= -->
+      <section class="page-header p-0">
+        <header id="header" class="">
+          <!--Navbar -->
+          <nav class=" navbar navbar-light light-blue">
+              <div class="full-nav">
+                        <div class="row">
+                            <div class="col-md-3 first-col">
+                                <a class="nav-link navbar-brand" href="\">
+                                    <img src="assets/img/bhtpa-logo180.png" height="auto" class="align-top img-fluid"
+                                     alt="bhtpa logo"> 
+                                </a>        
+                            </div>
+                            <div class="col-md-7 menu-col">
+                                <!-- Collapse button -->
+                                <div class="menu-item text-white">
+                                    <div class="left-side">
+                                    </div><!--End left side-->
+                                    <div class="right-side">
+                                        <span class="language">
+                                            <a class="text-white" href="#">ENG</a> | 
+                                            <a class="text-muted" href="#">BN</a>
+                                        </span>
+                                            
+                                        <!-- Button carousel popup
+                                        <button type="button" class="btn btn-default text-white first-btn" data-toggle="modal" data-target="#modalCarousel">
+                                            <i class="fas fa-th"></i></button>-->
+                                        <!-- Button hamburgur manu popup-->
+                                        <button type="button" class="btn btn-default text-white" data-toggle="modal" data-target="#modalPoll-1"><i
+                                        class="fas fa-bars"> </i> MENU</button>
+                                          
+                                    </div><!--End right side-->
+
+                                </div>
+                            </div>
+                            <div class="col-md-2 last-col">
+                                <a href="#" class="navbar-brand float-none">
+                                <img src="assets/img/Mujib-Borsho.jpg" height="auto" class="align-top img-fluid"
+                                alt="Mujib-Borsho logo"> </a>
+                            </div>
+                        </div>
+              </div>        
+              <!-- toggle navigation -->
+              <div class="modal fade right toggle-menu" id="modalPoll-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true" data-backdrop="false">
+                  <div class="modal-dialog modal-full-height modal-right modal-notify modal-info" role="document">
+                      <div class="modal-content">
+                          <!--Header-->
+                          <div class="modal-header">
+                                          
+
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true" class="white-text">×</span> Close
+                                          </button>
+                          </div>
+
+                          <!--Body-->
+                          <div class="modal-body">
+                              <ul class="navbar-nav justify-content-between ml-auto">
+                                  <li class="nav-item active">
+                                      <a class="nav-link" href="\">Home <span class="sr-only">(current)</span></a>
+                                  </li>
+                                  
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      About
+                                    </a>
+                                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a   class="dropdown-item" href="#">Park Information</a>
+                                        <a class="dropdown-item" href="#">All focal point</a>
+                                        <a class="dropdown-item" href="#">Annual Report</a>
+                                      </div>
+                                  </li>
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Act, Rules & Guidelines
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <a class="dropdown-item" href="#">Act</a>
+                                      <a class="dropdown-item" href="#">Rules</a>
+                                      <a class="dropdown-item" href="#">Guidelines</a>
+                                    </div>
+                                  </li>
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Project</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <a class="dropdown-item" href="#">Running Project</a>
+                                      <a class="dropdown-item" href="#">Operational Project</a>
+                                    </div>
+                                  </li>
+                                  <li class="nav-item dropdown">
+                                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Service
+                                              </a>
+                                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                  <a class="dropdown-item" href="/one-stop-services.html">One Stop Service</a>
+                                                  
+                                                </div>
+                                            </li>
+
+                                            <li class="nav-item dropdown">
+                                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Gallery
+                                              </a>
+                                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                  <a class="dropdown-item" href="#">Photo</a>
+                                                  <a class="dropdown-item" href="#">Video</a>
+                                                </div>
+                                            </li>
+                                            <li class="nav-item">
+                                              <a   class="nav-link" href="#">Key Personal</a>
+                                            </li>
+                                            <li class="nav-item">
+                                              <a   class="nav-link" href="#">Investors List</a>
+                                            </li>
+
+                                            <li class="nav-item">
+                                              <a   class="nav-link" href="#">Contact</a>
+                                            </li>    
+                                          </ul>
+
+                                </div>
+
+                                <!-- modal Footer-->
+                                <div class="modal-footer">
+                                          <!-- Search form -->
+                                          <form class="form-inline d-flex  lg-form form-lg active-pink active-pink-2 mt-2">
+                                            
+                                            <input class="form-control form-control-sm ml-3 w-90" type="text" placeholder="Search"
+                                              aria-label="Search"><i class="fas fa-search fa-lg ml-2" aria-hidden="true"></i>
+                                          </form>  
+                                </div>
+                            </div><!--End modal content-->
+                        </div>
+                    </div> <!-- Modal: modalPoll -->
+                    <!--/. toggle navigation -->
+                </nav>
+                          <!--/.Navbar -->
+            </header>
+          </section><!-- End Header -->
+
+        
+
+        <div class="main-content">
+              <!--Start slider-->
+         <section class="slider-section p-0">
+          <div class="container-slider">
+           <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+
+             <!--Indicators-->
+             <ol class="carousel-indicators">
+               <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+               <li data-target="#carousel-example-1z" data-slide-to="1" class=""></li>
+               <li data-target="#carousel-example-1z" data-slide-to="2" class=""></li>
+               <li data-target="#carousel-example-1z" data-slide-to="3" class=""></li>
+               
+             </ol>
+             <!--/.Indicators-->
+         
+             <!--Slides-->
+             <div class="carousel-inner" role="listbox">
+           
+               <!--First slide-->
+               <div class="carousel-item first-slide active">
+                 <div class="slide-container" style="background-image: url(assets/img/slider1.jpg),linear-gradient(90deg,rgba(0, 0, 0, 0.6) 40%,rgba(0,0,0, 0.2) 95%) !important;">
+         
+                   <!-- Mask & flexbox options-->
+                   <div class="container">
+                         <div class="row text-light wow fadeIn align-items-center">
+                           <div class="col-md-6">
+                             <div class="content">
+                                <h1 class="mb-4"><strong>QUOTES FROM THE VISIONARIES</strong> </h1>
+                                <h5 class="mb-4">Quamquam te quidem video minime esse deterritum</h5>
+                                <a target="_blank" href="#" class="btn btn-outline-white btn-lg waves-effect waves-light">
+                                  Show more</a>
+                             </div>
+                             
+                           </div>
+                           <div class="col-md-6">
+                           
+                           </div><!--End col-6-->
+                         </div><!-- row -->
+                   </div>
+                   <!-- Mask & flexbox options-->
+         
+                 </div>
+               </div>
+               <!--/First slide-->
+         
+               <!--Second slide-->
+               <div class="carousel-item second-slide">
+                 <div class="slide-container" style="background-image: url(assets/img/slider3.jpg),linear-gradient(90deg,rgba(69,139,189,0.98) 40%,rgba(69,139,189,0.4) 90%) !important;">
+         
+                   <!-- Mask & flexbox options-->
+                   <div class="container">
+                      <div class="row text-light wow fadeIn align-items-center">
+                        <div class="col-md-6">
+                          <h1 class="mb-4"><strong>DRIVING INDUSTRIES OF THE FUTURE</strong></h1>
+                          <h5 class="mb-4"> Quamquam te quidem video minime esse deterritum</h5>
+                          <a target="_blank" href="#" class="btn btn-outline-white btn-lg waves-effect waves-light">
+                            Show more</a>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="content">                
+                               <!-- Content -->
+                                
+                          </div>
+                        </div><!--end col-6-->
+                      </div><!-- row -->
+                   </div>
+                   
+                   <!-- Mask & flexbox options-->
+         
+                 </div><!--end slide container-->
+               </div>
+               <!--/Second slide-->
+         
+               <!--Third slide-->
+               <div class="carousel-item third-slide">
+                 <div class="slide-container" style="background-image: url(assets/img/slider2.jpg),linear-gradient(90deg,rgba(0, 0, 0, 0.5) 30%,rgba(0,0,0, .01) 90%) !important;">
+         
+                   <!-- Mask & flexbox options-->
+                   <div class="container">
+                      <div class="row text-light wow fadeIn align-items-center">
+                        <div class="col-md-6">
+                          <div class="content">
+                            <h1 class="mb-4">
+                              <strong>DRIVING INDUSTRIES OF THE FUTURE</strong>
+                            </h1>
+                   
+                            <h5 class="mb-4">Quamquam te quidem video minime esse deterritum</h5>
+                            <a target="_blank" href="#" class="btn btn-outline-white btn-lg waves-effect waves-light">
+                            Show more</a>
+                          </div>
+                          
+                        </div><!--end col-6-->
+                        <div class="col-md-6">
+                            <!-- content -->
+                            <div class="content">
+                            </div><!-- content -->
+                                 
+                        </div><!--end col-6-->
+                      </div><!--end row -->
+                    </div><!-- end Container -->
+                   
+                 </div><!--/slide container-->
+               </div><!--/Third slide-->
+               
+                <!--four slide-->
+                <div class="carousel-item four-slide">
+                   <div class="slide-container" style="background-image: url(assets/img/s6.jpg) !important; background-repeat: no-repeat;">
+           
+                     <!-- Mask & flexbox options-->
+                     <div class="container">
+                       
+                       
+                         <div class="row text-light wow fadeIn align-items-center">
+                           <div class="col-md-6">
+                             <div class="content">
+                                <h1 class="mb-4"><strong>One Stop Services</strong></h1>
+                                <h5 class="mb-4"> Quamquam te quidem video minime esse deterritum </h5>
+                                <a target="_blank" href="#" class="btn btn-outline-white btn-lg waves-effect waves-light">
+                                Show more  </a>
+                             </div><!-- end Content -->
+                             
+                           </div>
+                           <div class="col-md-6">
+                              <!-- Card -->
+                               <div class="content text-center">
+                                  </div>
+                              <!-- Card --> 
+                           </div>
+                         </div><!-- row -->
+                       <!-- Content -->
+                     </div><!-- Mask & flexbox options-->
+
+                   </div><!--/slide container-->
+                </div><!--/Four slide-->
+         
+             </div><!--/.Slides-->
+             
+         
+             <!--Controls-->
+             <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="sr-only">Previous</span>
+             </a>
+             <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="sr-only">Next</span>
+             </a>
+             <!--/.Controls-->
+         
+           </div>
+          </div><!--end slider container-->
+        </section>
+         <!--End slider-->
+          <section class="about-bhtpa">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="content">
+                    <h2 class="about-title"><span>WELCOME TO</span> <br/> BANGLADESH HI-TECH PARK AUTHORITY</h2>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="content">
+                    <p>
+                      Establish international standard infrastructure;create congenial & sustainable business environment; develop IT/ITES based Industrial ecosystem and ensure all services for IT/ITES business & industries through One Stop Platform <a href="#"> read more </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section><!--End about-bhtpa-->
+
+          <section class="happening-section">
+            <div class="container">
+                <div class="row first-row">
+                  <div class="col-md-12">
+                      <h2>Finding Hi-Tech park</h2>
+                  </div>
+                </div><!--End first row-->
+                <div class="row second-row">
+                  <div class="col-md-6">
+                    
+                    <div class="item">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <div class="animation__background"></div>
+                        <h4>Notice Board</h4>
+                        <div class="content">
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="#" title="Re-Invitation for Tender"><i class="fas fa-angle-right mr-1"></i> Re-Invitation for Tender</a></li>
+                            <li class="list-group-item">  <a href="#" title="EOI for Human Resource Development of ‘Bangabandhu Sheikh Mujib Hi-Tec..."><i class="fas fa-angle-right mr-1"></i> EOI for Human Resource Development of ‘Bangabandhu Hi-Tec...</a></li>
+                            <li class="list-group-item"><a href="#" title="EoI Corrigendum of Establishment of Sheikh Kamal IT Training and Incub..."><i class="fas fa-angle-right mr-1"></i> EoI Corrigendum of Establishment of Sheikh Kamal IT Training and Incub...</a></li>
+                            <li class="list-group-item"><a href="#" title="EOI of Establishment of Sheikh Kamal IT Training and Incubation center..."><i class="fas fa-angle-right mr-1"></i> EOI of Establishment of Sheikh Kamal IT Training and Incubation center...</a></li>
+                            <li class="list-group-item"><a href="#" title="Practical exam result for the post of computer typist cum office assis..."><i class="fas fa-angle-right mr-1"></i> Practical exam result for the post of computer typist cum office assis...</a></li>
+                         </ul>
+                        <a class="btn btn-danger rounded mt-3" href="#" target="_blank" rel="noopener noreferrer">Read more<i class="fas fa-plus fa-xs red-text"></i></a>
+                        </div>
+ 
+                    </div><!--end item-->
+
+                    
+                  </div><!--end-col-md-6-->
+
+                  <div class="col-md-6">
+                    
+                    <div class="item">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <div class="animation__background"></div>
+                      <h4>Upcomming Event</h4>
+                      <div class="content">
+                        <ul class="list-group">
+                          <li class="list-group-item"><a href="#" title="Re-Invitation for Tender"><i class="fas fa-angle-right mr-1"></i> Re-Invitation for Tender</a></li>
+                          <li class="list-group-item">  <a href="#" title="EOI for Human Resource Development of ‘Bangabandhu Sheikh Mujib Hi-Tec..."><i class="fas fa-angle-right mr-1"></i> EOI for Human Resource Development of ‘Bangabandhu Hi-Tec...</a></li>
+                          <li class="list-group-item"><a href="#" title="EoI Corrigendum of Establishment of Sheikh Kamal IT Training and Incub..."><i class="fas fa-angle-right mr-1"></i> EoI Corrigendum of Establishment of Sheikh Kamal IT Training and Incub...</a></li>
+                          <li class="list-group-item"><a href="#" title="EOI of Establishment of Sheikh Kamal IT Training and Incubation center..."><i class="fas fa-angle-right mr-1"></i> EOI of Establishment of Sheikh Kamal IT Training and Incubation center...</a></li>
+                          <li class="list-group-item"><a href="#" title="Practical exam result for the post of computer typist cum office assis..."><i class="fas fa-angle-right mr-1"></i> Practical exam result for the post of computer typist cum office assis...</a></li>
+                       </ul>
+                      <a class="btn btn-danger rounded mt-3" href="#" target="_blank" rel="noopener noreferrer">Read more<i class="fas fa-plus fa-xs red-text"></i></a>
+                      </div>
+                    </div><!--end item-->
+                    
+                  </div><!--end-col-md-6-->
+
+                  
+                </div>
+
+                <div class="row second-row">
+                  <div class="col-md-6">
+                    
+                    <div class="item">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <div class="animation__background"></div>
+                      <h4>Tender Notice</h4>
+                      <div class="content">
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="#" title="Re-Invitation for Tender"><i class="fas fa-angle-right mr-1"></i> Re-Invitation for Tender</a></li>
+                            <li class="list-group-item">  <a href="#" title="EOI for Human Resource Development of ‘Bangabandhu Sheikh Mujib Hi-Tec..."><i class="fas fa-angle-right mr-1"></i> EOI for Human Resource Development of ‘Bangabandhu Hi-Tec...</a></li>
+                            <li class="list-group-item"><a href="#" title="EoI Corrigendum of Establishment of Sheikh Kamal IT Training and Incub..."><i class="fas fa-angle-right mr-1"></i> EoI Corrigendum of Establishment of Sheikh Kamal IT Training and Incub...</a></li>
+                            <li class="list-group-item"><a href="#" title="EOI of Establishment of Sheikh Kamal IT Training and Incubation center..."><i class="fas fa-angle-right mr-1"></i> EOI of Establishment of Sheikh Kamal IT Training and Incubation center...</a></li>
+                            <li class="list-group-item"><a href="#" title="Practical exam result for the post of computer typist cum office assis..."><i class="fas fa-angle-right mr-1"></i> Practical exam result for the post of computer typist cum office assis...</a></li>
+                         </ul>
+                        <a class="btn btn-danger rounded mt-3" href="#" target="_blank" rel="noopener noreferrer">Read more<i class="fas fa-plus fa-xs red-text"></i></a>
+                      </div>
+ 
+                    </div><!--end item-->
+
+                    
+                  </div><!--end-col-md-6-->
+
+                  <div class="col-md-6">
+                    
+                    <div class="item">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <div class="animation__background"></div>
+                      <h4>Document & Publications</h4>
+                      <div class="content">
+                        <ul class="list-group">
+                          <li class="list-group-item"><a href="#" title="Re-Invitation for Tender"><i class="fas fa-angle-right mr-1"></i> Re-Invitation for Tender</a></li>
+                          <li class="list-group-item">  <a href="#" title="EOI for Human Resource Development of ‘Bangabandhu Sheikh Mujib Hi-Tec..."><i class="fas fa-angle-right mr-1"></i> EOI for Human Resource Development of ‘Bangabandhu Hi-Tec...</a></li>
+                          <li class="list-group-item"><a href="#" title="EoI Corrigendum of Establishment of Sheikh Kamal IT Training and Incub..."><i class="fas fa-angle-right mr-1"></i> EoI Corrigendum of Establishment of Sheikh Kamal IT Training and Incub...</a></li>
+                          <li class="list-group-item"><a href="#" title="EOI of Establishment of Sheikh Kamal IT Training and Incubation center..."><i class="fas fa-angle-right mr-1"></i> EOI of Establishment of Sheikh Kamal IT Training and Incubation center...</a></li>
+                          <li class="list-group-item"><a href="#" title="Practical exam result for the post of computer typist cum office assis..."><i class="fas fa-angle-right mr-1"></i> Practical exam result for the post of computer typist cum office assis...</a></li>
+                       </ul>
+                      <a class="btn btn-danger rounded mt-3" href="#" target="_blank" rel="noopener noreferrer">Read more<i class="fas fa-plus fa-xs red-text"></i></a>
+                      </div>
+                    </div><!--end item-->
+                    
+                  </div><!--end-col-md-6-->
+
+                  
+                </div>
+                
+            </div>
+          </section><!--End happening-section-->
+
+          <section class=" digitalbd p-0">
+            <div class="main-container">
+              <div class="container">
+                <div class="row first-row_1 py-5">
+                  <div class="col-md-12">
+                      <h2 class="text-center">The Digital Bangladesh</h2>
+                  </div>
+                </div><!--End first row-->
+              </div>
+              
+              <div class="row first-row m-1">
+                <div class="col-md-6 first-col">
+                  <div id="slides">
+                    <span class="slide">
+                    <span class="animate in"></span>
+                      <div class="items-01">
+                        <h2>Leading Bangladesh’s Digital Economy Forward</h2>
+                        <p>As the world navigates unprecedented times, facing multiple industry disruptions, Malaysia continues 
+                          to set the narrative for the Southeast Asia region with a focused effort to drive its digital economy forward.
+                          Our mandate at MDEC is to ensure Malaysia makes the Digital Leap into the Fourth Industrial Revolution to drive
+                            shared prosperity, and firmly establish Malaysia as the Heart of Digital ASEAN.
+                          </p>
+                        <a class="btn btn-danger rounded button" href="/single-page.html"> Learn More </a>
+                        
+                      </div>
+                    </span>
+                    <span class="slide">
+                      <span class="animate out"></span>
+                        <div class="items-01">
+                          <h2>Leading Bangladesh’s Digital Economy Forward</h2>
+                          <p>As the world navigates unprecedented times, facing multiple industry disruptions, Malaysia continues 
+                            to set the narrative for the Southeast Asia region with a focused effort to drive its digital economy forward.
+                            Our mandate at MDEC is to ensure Malaysia makes the Digital Leap into the Fourth Industrial Revolution to drive
+                              shared prosperity, and firmly establish Malaysia as the Heart of Digital ASEAN.
+                            </p>
+                          <a class="btn btn-danger rounded button" href="/single-page.html"> Learn More </a>
+                          
+                        </div>
+                      </span>
+                  </div>
+                </div>
+                  
+                <div class="col-md-6 last-col overlay">
+                  <div class="items-01">
+                    <h2>Making Bangladesh the Heart of Digital ASEAN</h2>
+                    <div class="show-on-hover fadeIn">
+                      <p>With a globally recognised, close to 25 years track record of successfully developing ICT and digital technologies, Malaysia continues to innovate and expand its vibrant digital ecosystem. We aim to be the benchmark of a progressive digital nation and embody the Heart of Digital ASEAN.</p>
+                      <a class="btn btn-danger rounded button" href="/single-page.html"> Learn More </a>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div><!--row end-->
+
+              <div class="row second-row m-1">
+                <div class="col-md-6 first-col overlay">
+                  <div class="items-02">
+                    <h2>Digitally Skilled Bangladeshies</h2>
+                    <div class="show-on-hover fadeIn">
+                      <p>With a globally recognised, close to 25 years track record of successfully developing ICT and digital technologies, Malaysia continues to innovate and expand its vibrant digital ecosystem. We aim to be the benchmark of a progressive digital nation and embody the Heart of Digital ASEAN.</p>
+                      <a class="btn btn-danger rounded button" href="/single-page.html"> Learn More </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2 second-col overlay">
+                  <div class="items-02">
+                    <h2>Digitally Powered Businesses</h2>
+                    <div class="show-on-hover fadeIn">
+                      <p>With a globally recognised, close to 25 years track record of successfully developing ICT and digital technologies, Malaysia continues to innovate and expand its vibrant digital ecosystem.</p>
+                      <a class="btn btn-danger rounded button" href="/single-page.html"> Learn More </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 third-col overlay">
+                  <div class="items-02">
+                    <h2>Digital Sector Investments</h2>
+                    <div class="show-on-hover fadeIn">
+                      <p>With a globally recognised, close to 25 years track record of successfully developing ICT and digital technologies, Malaysia continues to innovate and expand its vibrant digital ecosystem. We aim to be the benchmark of a progressive digital nation and embody the Heart of Digital ASEAN.</p>
+                      <a class="btn btn-danger rounded button" href="/single-page.html"> Learn More </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </section><!--End Digital BD section-->
+
+          <section class="map-section">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-12 view">
+                    <div class="map-title pb-4">
+                      <h2 class="display-5 text-center">Our Project Landmark</h2>
+                      <div class="line"></div>
+                    </div>
+                    <div class="" id="mapid2"></div>
+
+                </div>
+              </div>
+            </div>
+          </section><!--End map section-->
+
+          <section class="features1 service modernm4_features1 cid-sjdJjr6eXG" id="features1-2 features1-e">
+
+            <div class="container">
+                <!--Start first row-->
+                <div class="row first-row">
+                    <div class="col">
+                        <h2 class="text-center">Services we provide</h2>
+                        <div class="line"></div>
+                    </div>
+                </div><!--End first row-->
+        
+                <!--Start second row-->
+                <div class="row second-row showArrow">
+                  <div class="items">
+                    <div class="card item one">
+                        <div class="card-inner">
+                            <span class="circle"></span>
+                            <span class="circle"></span>
+                            <span class="circle"></span>
+                            <span class="circle"></span>
+                            <span class="circle"></span>
+                            <span class="circle"></span>
+                            <span class="circle"></span>
+                            <div class="animation__background"></div>
+                            <div class="icon__block">
+                                <span class="mbr-iconfont mobi-mbri-contact-form mobi-mbri"></span>
+                            </div>
+                            <div class="card-box">
+                                <h4 class="card-title mbr-fonts-style display-5">Incentive Package(SRO)</h4>
+                                    <ul class="navbar-nav">
+                                        <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/Tax</a></li>
+                                        <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/VAT</a></li>
+                                        <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/Customs</a></li>
+                                        <li><a href="#" target="_blank" rel="noopener noreferrer">Hi-Tech Park/STP Notification</a></li>
+                                        <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/Tax</a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="card item two">
+                        <div class="card-inner">
+                            <span class="circle"></span>
+                            <span class="circle"></span>
+                            <span class="circle"></span>
+                            <span class="circle"></span>
+                            <span class="circle"></span>
+                            <span class="circle"></span>
+                            <span class="circle"></span>
+                            <div class="animation__background"></div>
+                            <div class="icon__block">
+                                <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                            </div>
+                            <div class="card-box">
+                                <h4 class="card-title mbr-fonts-style display-5">Citizen's Charter</h4>
+                                
+                                <ul class="navbar-nav">
+                                    <li><a href="#" target="_blank" rel="noopener noreferrer">Citizen Charter</a></li>
+                                    <li><a href="#" target="_blank" rel="noopener noreferrer">Complain /Opinion Focal Point/Evaluation</a></li>
+                                    <li><a href="#" target="_blank" rel="noopener noreferrer"></a></li>
+                                    <li><a href="#" target="_blank" rel="noopener noreferrer"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="card item three">
+                        <div class="card-inner">
+                            <span class="circle"></span>
+                            <span class="circle"></span>
+                            <span class="circle"></span>
+                            <span class="circle"></span>
+                            <span class="circle"></span>
+                            <span class="circle"></span>
+                            <span class="circle"></span>
+                            <div class="animation__background"></div>
+                            <div class="icon__block">
+                                <span class="mbr-iconfont mbr-iconfont-1 mobi-mbri-image-oss mobi-mbri"></span>
+                            </div>
+                            <div class="card-box">
+                                <h4 class="card-title mbr-fonts-style display-5">One stop Service</h4>
+                                <ul class="navbar-nav">
+                                    <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/Tax</a></li>
+                                    <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/VAT</a></li>
+                                    <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/Customs</a></li>
+                                    <li><a href="#" target="_blank" rel="noopener noreferrer">Hi-Tech Park/STP Notification</a></li>
+                                    <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/Tax</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card  item four">
+                      <div class="card-inner">
+                          <span class="circle"></span>
+                          <span class="circle"></span>
+                          <span class="circle"></span>
+                          <span class="circle"></span>
+                          <span class="circle"></span>
+                          <span class="circle"></span>
+                          <span class="circle"></span>
+                          <div class="animation__background"></div>
+                          <div class="icon__block">
+                              <span class="mbr-iconfont mobi-mbri-nis mobi-mbri"></span>
+                          </div>
+                          <div class="card-box">
+                              <h4 class="card-title mbr-fonts-style display-5">National Integrity Strategy (NIS)</h4>
+                              <ul class="navbar-nav">
+                                  <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/Tax</a></li>
+                                  <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/VAT</a></li>
+                                  <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/Customs</a></li>
+                                  <li><a href="#" target="_blank" rel="noopener noreferrer">Hi-Tech Park/STP Notification</a></li>
+                                  <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/Tax</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                    </div>
+      
+                    <div class="card  item five">
+                      <div class="card-inner">
+                          <span class="circle"></span>
+                          <span class="circle"></span>
+                          <span class="circle"></span>
+                          <span class="circle"></span>
+                          <span class="circle"></span>
+                          <span class="circle"></span>
+                          <span class="circle"></span>
+                          <div class="animation__background"></div>
+                          <div class="icon__block">
+                              <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                          </div>
+                          <div class="card-box">
+                              <h4 class="card-title mbr-fonts-style display-5">Activities &amp; Progress of Project</h4>
+                              <ul class="navbar-nav">
+                                  <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/Tax</a></li>
+                                  <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/VAT</a></li>
+                                  <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/Customs</a></li>
+                                  <li><a href="#" target="_blank" rel="noopener noreferrer">Hi-Tech Park/STP Notification</a></li>
+                                  <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/Tax</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                    </div>
+      
+                    <div class="card  item six">
+                      <div class="card-inner">
+                          <span class="circle"></span>
+                          <span class="circle"></span>
+                          <span class="circle"></span>
+                          <span class="circle"></span>
+                          <span class="circle"></span>
+                          <span class="circle"></span>
+                          <span class="circle"></span>
+                          <div class="animation__background"></div>
+                          <div class="icon__block">
+                              <span class="mbr-iconfont mbr-iconfont-1 mobi-mbri-image-gallery mobi-mbri"></span>
+                          </div>
+                          <div class="card-box">
+                              <h4 class="card-title mbr-fonts-style display-5">Right of Information</h4>
+                              <ul class="navbar-nav">
+                                  <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/Tax</a></li>
+                                  <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/VAT</a></li>
+                                  <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/Customs</a></li>
+                                  <li><a href="#" target="_blank" rel="noopener noreferrer">Hi-Tech Park/STP Notification</a></li>
+                                  <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/Tax</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                    </div>
+
+                    <div class="card   item seven">
+                    <div class="card-inner">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <div class="animation__background"></div>
+                        <div class="icon__block">
+                            <span class="mbr-iconfont mobi-mbri-apa mobi-mbri"></span>
+                        </div>
+                        <div class="card-box">
+                            <h4 class="card-title mbr-fonts-style display-5">Annual Performance Agreement</h4>
+                            <ul class="navbar-nav">
+                                <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/Tax</a></li>
+                                <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/VAT</a></li>
+                                <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/Customs</a></li>
+                                <li><a href="#" target="_blank" rel="noopener noreferrer">Hi-Tech Park/STP Notification</a></li>
+                                <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/Tax</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+    
+                    <div class="card   item eight">
+                    <div class="card-inner">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <div class="animation__background"></div>
+                        <div class="icon__block">
+                            <span class="mbr-iconfont mobi-mbri-grievance mobi-mbri"></span>
+                        </div>
+                        <div class="card-box">
+                            <h4 class="card-title mbr-fonts-style display-5">Grievance Redress System</h4>
+                            <ul class="navbar-nav">
+                                <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/Tax</a></li>
+                                <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/VAT</a></li>
+                                <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/Customs</a></li>
+                                <li><a href="#" target="_blank" rel="noopener noreferrer">Hi-Tech Park/STP Notification</a></li>
+                                <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/Tax</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+    
+                    <div class="card   item nine">
+                    <div class="card-inner">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <div class="animation__background"></div>
+                        <div class="icon__block">
+                            <span class="mbr-iconfont mbr-iconfont-1 mobi-mbri-internal-form mobi-mbri"></span>
+                        </div>
+                        <div class="card-box">
+                            <h4 class="card-title mbr-fonts-style display-5">Office Internal Service Form</h4>
+                            <ul class="navbar-nav">
+                                <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/Tax</a></li>
+                                <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/VAT</a></li>
+                                <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/Customs</a></li>
+                                <li><a href="#" target="_blank" rel="noopener noreferrer">Hi-Tech Park/STP Notification</a></li>
+                                <li><a href="#" target="_blank" rel="noopener noreferrer">Incentive Package/Tax</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                </div><!--End second row-->
+        
+                <div class="row row-arrow">
+                    <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
+                        <a href="#next">
+                            <i class="mbr-iconfont mobi-mbri-down mobi-mbri" media-simple="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div><!--End container-->
+        </section><!--End service section-->
+
+        <section class="gallery-section pb-2">
+          <div class="container">
+            <div class="row first-row">
+              <div class="col-md-12 view">
+                  <div class="title text-center pb-4">
+                    <h2 class="display-5">Gallery</h2>
+                    <div class="line"></div>
+                  </div> 
+
+              </div>
+            </div><!--End first row-->
+
+            <div class="row second-row">
+              <div class="col-md-12 gallery-col">
+                <div class="one item">
+                    <a class="image-link" href="assets/img/g1.jpg" >
+                    <img src="assets/img/g1.jpg" alt="one" class="img-fluid">
+                    </a>
+                </div>
+                <div class="two item"><img src="assets/img/g2.jpg" alt="two" class="img-fluid"></div>
+                <div class="three item"><img src="assets/img/g3.jpg" alt="three" class="img-fluid"></div>
+                <div class="four item"><img src="assets/img/g4.jpg" alt="four" class="img-fluid"></div>
+                <div class="five item"><img src="assets/img/g5.jpg" alt="five" class="img-fluid"></div>
+                <div class="six item"><img src="assets/img/g1.jpg" alt="six" class="img-fluid"></div>
+              </div>
+            </div><!--End second row-->
+            
+            <div class="row third-row pt-5">
+              <div class="col-md-12">
+                <div class="content text-center">
+                  <a href="#" class="btn btn-danger bth-lg"> view more</a>
+                </div>
+              </div>
+            </div><!--End third row-->
+            
+          </div>
+        </section><!--End gallery section-->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <section class="slider-section p-0">
+            <div class="row" style="margin: 0px;">
+                
+            
+            <div class="col-md-9" style="padding: 0px;">
+          <div class="container-slider">
+           <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+
+             <!--Indicators-->
+             <ol class="carousel-indicators">
+               <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+               <li data-target="#carousel-example-1z" data-slide-to="1" class=""></li>
+               <li data-target="#carousel-example-1z" data-slide-to="2" class=""></li>
+               <li data-target="#carousel-example-1z" data-slide-to="3" class=""></li>
+               
+             </ol>
+             <!--/.Indicators-->
+         
+             <!--Slides-->
+             <div class="carousel-inner" role="listbox">
+           
+               <!--First slide-->
+               <div class="carousel-item first-slide active">
+                 <div class="slide-container" style="background-image: url(assets/img/slider1.jpg),linear-gradient(90deg,rgba(0, 0, 0, 0.6) 40%,rgba(0,0,0, 0.2) 95%) !important;">
+         
+                   <!-- Mask & flexbox options-->
+                   <div class="container">
+                         <div class="row text-light wow fadeIn align-items-center">
+                           <div class="col-md-6">
+                             <div class="content">
+                                <h1 class="mb-4"><strong>QUOTES FROM THE VISIONARIES</strong> </h1>
+                                <h5 class="mb-4">Quamquam te quidem video minime esse deterritum</h5>
+                                <a target="_blank" href="#" class="btn btn-outline-white btn-lg waves-effect waves-light">
+                                  Show more</a>
+                             </div>
+                             
+                           </div>
+                           <div class="col-md-6">
+                           
+                           </div><!--End col-6-->
+                         </div><!-- row -->
+                   </div>
+                   <!-- Mask & flexbox options-->
+         
+                 </div>
+               </div>
+               <!--/First slide-->
+         
+               <!--Second slide-->
+               <div class="carousel-item second-slide">
+                 <div class="slide-container" style="background-image: url(assets/img/slider3.jpg),linear-gradient(90deg,rgba(69,139,189,0.98) 40%,rgba(69,139,189,0.4) 90%) !important;">
+         
+                   <!-- Mask & flexbox options-->
+                   <div class="container">
+                      <div class="row text-light wow fadeIn align-items-center">
+                        <div class="col-md-6">
+                          <h1 class="mb-4"><strong>DRIVING INDUSTRIES OF THE FUTURE</strong></h1>
+                          <h5 class="mb-4"> Quamquam te quidem video minime esse deterritum</h5>
+                          <a target="_blank" href="#" class="btn btn-outline-white btn-lg waves-effect waves-light">
+                            Show more</a>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="content">                
+                               <!-- Content -->
+                                
+                          </div>
+                        </div><!--end col-6-->
+                      </div><!-- row -->
+                   </div>
+                   
+                   <!-- Mask & flexbox options-->
+         
+                 </div><!--end slide container-->
+               </div>
+               <!--/Second slide-->
+         
+               <!--Third slide-->
+               <div class="carousel-item third-slide">
+                 <div class="slide-container" style="background-image: url(assets/img/slider2.jpg),linear-gradient(90deg,rgba(0, 0, 0, 0.5) 30%,rgba(0,0,0, .01) 90%) !important;">
+         
+                   <!-- Mask & flexbox options-->
+                   <div class="container">
+                      <div class="row text-light wow fadeIn align-items-center">
+                        <div class="col-md-6">
+                          <div class="content">
+                            <h1 class="mb-4">
+                              <strong>DRIVING INDUSTRIES OF THE FUTURE</strong>
+                            </h1>
+                   
+                            <h5 class="mb-4">Quamquam te quidem video minime esse deterritum</h5>
+                            <a target="_blank" href="#" class="btn btn-outline-white btn-lg waves-effect waves-light">
+                            Show more</a>
+                          </div>
+                          
+                        </div><!--end col-6-->
+                        <div class="col-md-6">
+                            <!-- content -->
+                            <div class="content">
+                            </div><!-- content -->
+                                 
+                        </div><!--end col-6-->
+                      </div><!--end row -->
+                    </div><!-- end Container -->
+                   
+                 </div><!--/slide container-->
+               </div><!--/Third slide-->
+               
+                <!--four slide-->
+                <div class="carousel-item four-slide">
+                   <div class="slide-container" style="background-image: url(assets/img/s6.jpg) !important; background-repeat: no-repeat;">
+           
+                     <!-- Mask & flexbox options-->
+                     <div class="container">
+                       
+                       
+                         <div class="row text-light wow fadeIn align-items-center">
+                           <div class="col-md-6">
+                             <div class="content">
+                                <h1 class="mb-4"><strong>One Stop Services</strong></h1>
+                                <h5 class="mb-4"> Quamquam te quidem video minime esse deterritum </h5>
+                                <a target="_blank" href="#" class="btn btn-outline-white btn-lg waves-effect waves-light">
+                                Show more  </a>
+                             </div><!-- end Content -->
+                             
+                           </div>
+                           <div class="col-md-6">
+                              <!-- Card -->
+                               <div class="content text-center">
+                                  </div>
+                              <!-- Card --> 
+                           </div>
+                         </div><!-- row -->
+                       <!-- Content -->
+                     </div><!-- Mask & flexbox options-->
+
+                   </div><!--/slide container-->
+                </div><!--/Four slide-->
+         
+             </div><!--/.Slides-->
+             
+         
+             <!--Controls-->
+             <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="sr-only">Previous</span>
+             </a>
+             <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="sr-only">Next</span>
+             </a>
+             <!--/.Controls-->
+         
+           </div>
+          </div><!--end slider container-->
+          
+          </div><!-- left-column -->
+          
+          <div class="col-md-3" style="padding: 0px;">
+              <img src="assets/img/img-mujib.jpg" class="img-fluid side_image" />
+              <img src="assets/img/img-hasina.jpg" class="img-fluid side_image" />
+              <img src="assets/img/img-sajeeb.jpg" class="img-fluid side_image" />
+          </div>
+          
+        
+        
+        
+        </div>  
+        </section>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </div>
+            <!-- Footer -->
+            <footer class="page-footer  font-small blue pt-4 bg-footer">
+
+                <!-- Footer Links -->
+                <div class="container footer-top text-center text-md-left">
+                
+                    <!-- Grid row -->
+                    <div class="row">
+                
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+                
+                        <!-- Links -->
+                        <h3 class="font-weight-bold text-uppercase mt-3 mb-4">Finding Hi-Tech Park</h3>
+                
+                        <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Act, Rules & Guidelines</a></li>
+                        <li><a href="#">National Intrigety</a></li>
+                        <li><hr></li>
+                        <li><a href="#">Anual Performance</a></li>
+                        <li><a href="#">Agreement</a></li>
+                        <li><hr></li>
+                        <li><a href="#">Grievance Redress System</a></li>
+                        </ul>
+                
+                    </div>
+                    <!-- Grid column -->
+                
+                    <hr class="clearfix w-100 d-md-none">
+                
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+                
+                        <!-- Links -->
+                        <h3 class="font-weight-bold text-uppercase mt-3 mb-4">About BHTPA</h3>
+                
+                        <ul class="list-unstyled">
+                        <li><a href="#">Advisor Massages</a></li>
+                        <li><a href="#">HSMS Massages</a></li>
+                        <li><a href="#">MD's Massages</a></li>
+                        <li><a href="#">BHTPA At A Glance</a></li>
+                        <li><a href="#">BHTPA Services</a></li>
+                        <li><a href="#">BHTPA Management</a></li>
+                        <ul>
+                            <li><a href="#">Key Personal</a></li>
+                            <li><a href="#">Project Statistics</a></li>
+                        </ul>
+                        </ul>
+                
+                    </div>
+                    <!-- Grid column -->
+                
+                    <hr class="clearfix w-100 d-md-none">
+                
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+                
+                        <!-- Links -->
+                        <h3 class="font-weight-bold text-uppercase mt-3 mb-4">Important Links</h3>
+                
+                        <ul class="list-unstyled">
+                            <li><a href="tel:333">Gov’t Info &amp; service</a></li>
+                            <li><a href="tel:999">National Emergency Service</a></li>
+                            <li><a href="tel:109">Prevent women &amp; child harassment</a></li>
+                            <li><a href="tel:106">Corruption Prevent Commission</a></li>
+                            <li><a href="http://ictd.gov.bd/">ICT Division</a></li>
+                            <li><a target="_blank" rel="noopener noreferrer" href="http://techcitybd.net/">Tech City BD</a></li>
+                            <li><a target="_blank" rel="noopener noreferrer" href="http://bhtc.bhtpa.gov.bd/">Bangabandu Hi-Tech City Project</a></li>
+                            <li><a target="_blank" rel="noopener noreferrer" href="http://bcc.gov.bd/">Bangladesh Computer Council (BCC)</a></li>
+                            <li><a target="_blank" rel="noopener noreferrer" href="http://www.connectingstartupsbd.net/">Connecting Startup Bangladesh</a></li>
+                            
+                        </ul>
+                
+                    </div>
+                    <!-- Grid column -->
+                
+                    <hr class="clearfix w-100 d-md-none">
+                
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto social-links">
+
+                        <!-- Links -->
+                        <h3 class="font-weight-bold text-uppercase mt-3 mb-4">Quick Links</h3>
+                        <ul class="list-unstyled">
+                        <li><a href="#">Tenders / EOI Notice</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        </ul>
+
+                        <hr>
+
+                        <h3 class="font-weight-bold text-uppercase mt-3 mb-4">Media</h3>
+                        <ul class="list-unstyled d-flex flex-row  justify-content-center">
+                        <li>
+                            <a href="https://www.facebook.com/BHTPA/" title="Facebook" target="_blank" class="fb-ic">
+                            <i class="fab fa-facebook-f fa-lg white-text mr-md-1 mr-3 fa-lg"> </i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/BHTPA2010" title="Twitter" target="_blank" class="tw-ic">
+                            <i class="fab fa-twitter fa-lg white-text mr-md-1 mr-3 fa-lg"> </i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCERgWYFRyE20JmhLrS8-ytg" title="Youtube" target="_blank" class="gplus-ic">
+                            <i class="fab fa-youtube fa-lg white-text mr-md-1 mr-3 fa-lg"> </i>
+                            </a>
+                        </li>
+                        
+                        </ul>
+                        
+                        <hr>
+
+                        <h3 class="font-weight-bold text-uppercase mt-4 mb-4">Subscribe Now</h3>
+                        <!-- Material form subscription -->
+                        <div class="subscription">
+
+                            <!--Card content-->
+                            <div class="card-content">
+
+                                <!-- Form -->
+                                <form class="subscription-form input-group" style="color: #757575;" action="#!">
+                                    <!-- E-mai -->
+                                        <input type="email" id="emailField" class="form-control" placeholder="E-mail"> 
+                                    
+                                    <!-- Sign in button -->
+                                    <button class="btn btn-danger btn-rounded  waves-effect" type="submit">Submit</button>
+
+                                </form>
+                                <!-- Form -->
+
+                            </div>
+
+                        </div>
+                        <!-- Material form subscription -->
+                    </div>
+                    <!-- Grid column -->
+                
+                    </div>
+                    <!-- Grid row -->
+                
+                </div>
+                <!-- Footer Links -->
+                
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3 bg-copyright">© 2020 Copyright:
+                    <a href="https://softxltd.com/"> BHTPA.</a> | <span>Design & Development by <a href="https://www.softxltd.com/" target="_blank">Softx Technology Ltd</a></span>
+                </div>
+                <!-- Copyright -->
+                
+        </footer>
+        <!-- End Footer -->
+
+        <!--floating corner-->
+        <div class="floating-corner p-2">
+            <div class="row row-sm align-items-center justify-content-end">
+            <div class="icon corner-icon">
+                <i class="fas fa-angle-right fa-lg red-text"></i>
+            </div>
+            <div class="content d-flex flex-column pr-2">
+                <div class="first-item">
+                <div class="investment-corner p-1">
+                    <a href="#" class=" btn btn-light" target="_blank" rel="noopener noreferrer">
+                    Investment
+                    </a>
+                </div>
+                <div class="startup-corner p-1">
+                    <a href="https://startupbangladesh.gov.bd/" class=" btn btn-light" target="_blank" rel="noopener noreferrer">Startup</a>
+                </div>
+                </div>
+
+                <div class="last-item pt-3">
+                <div class="oss p-1">
+                    <a href="https://ossbhtpa.gov.bd/" class=" btn btn-light" target="_blank" rel="noopener noreferrer">
+                    One Stop Service
+                    </a>
+                </div>
+                <div class="business-manager p-1">
+                    <a href="https://startupbangladesh.gov.bd/" class=" btn btn-light" target="_blank" rel="noopener noreferrer">Contact Business Manager</a>
+                </div>
+                <div class="training-class p-1">
+                    <a href="#" class=" btn btn-light" target="_blank" rel="noopener noreferrer">Training and Clases </a>
+                </div>
+                </div>
+                
+            </div>
+            
+            </div><!--/row-->
+        </div>
+        <!--/End floating corner-->
+   
+            <!--Chatbox Modal-->
+        <button type="button" class="btn btn-default chat-btn" data-toggle="modal" data-target="#myModal">
+            <i class="fab fa-facebook-messenger fa-4x"></i>
+        </button>
+        <div class="modal fade chatboxmodal" id="myModal">
+            <div class="modal-dialog modal-dialog-scrollable modal-bottom-right">
+            <div class="modal-content">
+        
+                <!-- Modal Header -->
+                <div class="modal-header">
+                <h6 class="active-title"><i class="fas fa-user-alt fa-lg mr-2"></i>Active Now</h6>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+        
+                <!-- Modal body -->
+                <div class="modal-body">
+                <div class="sender px-1 py-2">
+                    <i class="fas fa-user-alt fa-lg mr-2"></i><span class="txt">Whether we can look forward</span>
+                </div>
+                <div class="receber  px-1 py-2 text-right">
+                    <span class="txt">Whether we can look forward</span><i class="fas fa-user-alt fa-lg ml-2"></i>
+                </div>
+                <div class="sender  px-1 py-2">
+                    <i class="fas fa-user-alt fa-lg mr-2"></i><span class="txt">Whether we can look forward</span>
+                </div>
+                <div class="receber  px-1 py-2 text-right">
+                    <span class="txt">Whether we can look forward</span><i class="fas fa-user-alt fa-lg ml-2"></i>
+                </div>
+                <div class="receber  px-1 py-2 text-right">
+                    <span class="txt">Whether we can look forward</span><i class="fas fa-user-alt fa-lg ml-2"></i>
+                </div>
+                </div>
+        
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                <form action="">
+                    <i class="fas fa-smile fa-lg mx-2"></i><i class="fas fa-file-pdf fa-lg mx-2"></i><i class="fas fa-image fa-lg mx-2"></i><input class="input-box" type="text" placeholder="Aa">
+                </form>
+                </div>
+        
+            </div>
+            </div>
+        </div>
+        
+        <!--End Chatbox Modal-->
+   
+        <a href="#"  onclick="topFunction()" class="back-to-top" id="backTop" style="display: inline;"><i class="fas fa-chevron-up"></i></a>
+    </div>
+
+<!--Option 2: jQuery, Popper.js, and Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script src="assets/js/grayscalemap.js" ></script>
+<script src="assets/js/jquery.subtle-slideshow.js"></script>
+<script src="assets/js/script.js" ></script>
+
+
+</body>
+</html>

@@ -848,6 +848,91 @@
                     </div><!-- End of Card deck -->
                 </div><!--End of Container end-->
             </section><!-- End of  Recent news section -->
+
+            <!--floating corner p-2 inline-block fixed z-99 t-1/3 right-2 rounded-l-lg-->
+            <div class=" bg-red-500 z-50 fixed">
+                <div class="row row-sm items-center justify-end">
+                    <div class="icon corner-icon">
+                        <i class="fas fa-angle-right fa-lg red-text"></i>
+                    </div>
+                    <div class="content flex flex-column pr-2">
+                        <div class="first-item">
+                        <div class="investment-corner p-1">
+                            <a href="#" class=" btn btn-light" target="_blank" rel="noopener noreferrer">
+                            Investment
+                            </a>
+                        </div>
+                        <div class="startup-corner p-1">
+                            <a href="https://startupbangladesh.gov.bd/" class=" btn btn-light" target="_blank" rel="noopener noreferrer">Startup</a>
+                        </div>
+                        </div>
+
+                        <div class="last-item pt-3">
+                        <div class="oss p-1">
+                            <a href="https://ossbhtpa.gov.bd/" class=" btn btn-light" target="_blank" rel="noopener noreferrer">
+                            One Stop Service
+                            </a>
+                        </div>
+                        <div class="business-manager p-1">
+                            <a href="https://startupbangladesh.gov.bd/" class=" btn btn-light" target="_blank" rel="noopener noreferrer">Contact Business Manager</a>
+                        </div>
+                        <div class="training-class p-1">
+                            <a href="#" class=" btn btn-light" target="_blank" rel="noopener noreferrer">Training and Clases </a>
+                        </div>
+                        </div>
+
+                    </div>
+
+                </div><!--/row-->
+            </div>
+            <!--/End floating corner-->
+
+            <!--Chatbox Modal-->
+            <button type="button" class="btn btn-default chat-btn" data-toggle="modal" data-target="#myModal">
+                <i class="fab fa-facebook-messenger fa-4x"></i>
+            </button>
+            <div class="modal fade chatboxmodal" id="myModal">
+                <div class="modal-dialog modal-dialog-scrollable modal-bottom-right">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                        <h6 class="active-title"><i class="fas fa-user-alt fa-lg mr-2"></i>Active Now</h6>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                        <div class="sender px-1 py-2">
+                            <i class="fas fa-user-alt fa-lg mr-2"></i><span class="txt">Whether we can look forward</span>
+                        </div>
+                        <div class="receber  px-1 py-2 text-right">
+                            <span class="txt">Whether we can look forward</span><i class="fas fa-user-alt fa-lg ml-2"></i>
+                        </div>
+                        <div class="sender  px-1 py-2">
+                            <i class="fas fa-user-alt fa-lg mr-2"></i><span class="txt">Whether we can look forward</span>
+                        </div>
+                        <div class="receber  px-1 py-2 text-right">
+                            <span class="txt">Whether we can look forward</span><i class="fas fa-user-alt fa-lg ml-2"></i>
+                        </div>
+                        <div class="receber  px-1 py-2 text-right">
+                            <span class="txt">Whether we can look forward</span><i class="fas fa-user-alt fa-lg ml-2"></i>
+                        </div>
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                        <form action="">
+                            <i class="fas fa-smile fa-lg mx-2"></i><i class="fas fa-file-pdf fa-lg mx-2"></i><i class="fas fa-image fa-lg mx-2"></i><input class="input-box" type="text" placeholder="Aa">
+                        </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--End Chatbox Modal-->
+
+            <a href="#"  onclick="topFunction()" class="back-to-top inline" id="backTop"><i class="fas fa-chevron-up"></i></a>
         </main>
         <!--main end here-->
         <!--footer start here-->
@@ -972,7 +1057,7 @@
                                 <!-- Form -->
                                 <form class="subscription-form input-group" style="color: #757575;" action="#!">
                                     <!-- E-mai -->
-                                        <input type="email" id="emailField" class="form-control" placeholder="E-mail">
+                                        <input type="email" id="emailField" class="form-control rounded-lg" placeholder="E-mail">
 
                                     <!-- Sign in button -->
                                     <button class="btn btn-danger btn-rounded  waves-effect" type="submit">Submit</button>
@@ -999,104 +1084,5 @@
             <!-- Copyright -->
         </footer>
         <!--footer end here-->
-        <div class="page-container">
-
-
-
-
-
-            <!-- Footer -->
-            <footer >
-
-
-
-            </footer>
-            <!-- End Footer -->
-
-            <!--floating corner-->
-            <div class="floating-corner p-2">
-                <div class="row row-sm items-center justify-end">
-                    <div class="icon corner-icon">
-                        <i class="fas fa-angle-right fa-lg red-text"></i>
-                    </div>
-                    <div class="content flex flex-column pr-2">
-                        <div class="first-item">
-                        <div class="investment-corner p-1">
-                            <a href="#" class=" btn btn-light" target="_blank" rel="noopener noreferrer">
-                            Investment
-                            </a>
-                        </div>
-                        <div class="startup-corner p-1">
-                            <a href="https://startupbangladesh.gov.bd/" class=" btn btn-light" target="_blank" rel="noopener noreferrer">Startup</a>
-                        </div>
-                        </div>
-
-                        <div class="last-item pt-3">
-                        <div class="oss p-1">
-                            <a href="https://ossbhtpa.gov.bd/" class=" btn btn-light" target="_blank" rel="noopener noreferrer">
-                            One Stop Service
-                            </a>
-                        </div>
-                        <div class="business-manager p-1">
-                            <a href="https://startupbangladesh.gov.bd/" class=" btn btn-light" target="_blank" rel="noopener noreferrer">Contact Business Manager</a>
-                        </div>
-                        <div class="training-class p-1">
-                            <a href="#" class=" btn btn-light" target="_blank" rel="noopener noreferrer">Training and Clases </a>
-                        </div>
-                        </div>
-
-                    </div>
-
-                </div><!--/row-->
-            </div>
-            <!--/End floating corner-->
-
-            <!--Chatbox Modal-->
-            <button type="button" class="btn btn-default chat-btn" data-toggle="modal" data-target="#myModal">
-                <i class="fab fa-facebook-messenger fa-4x"></i>
-            </button>
-            <div class="modal fade chatboxmodal" id="myModal">
-                <div class="modal-dialog modal-dialog-scrollable modal-bottom-right">
-                    <div class="modal-content">
-
-                        <!-- Modal Header -->
-                        <div class="modal-header">
-                        <h6 class="active-title"><i class="fas fa-user-alt fa-lg mr-2"></i>Active Now</h6>
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        </div>
-
-                        <!-- Modal body -->
-                        <div class="modal-body">
-                        <div class="sender px-1 py-2">
-                            <i class="fas fa-user-alt fa-lg mr-2"></i><span class="txt">Whether we can look forward</span>
-                        </div>
-                        <div class="receber  px-1 py-2 text-right">
-                            <span class="txt">Whether we can look forward</span><i class="fas fa-user-alt fa-lg ml-2"></i>
-                        </div>
-                        <div class="sender  px-1 py-2">
-                            <i class="fas fa-user-alt fa-lg mr-2"></i><span class="txt">Whether we can look forward</span>
-                        </div>
-                        <div class="receber  px-1 py-2 text-right">
-                            <span class="txt">Whether we can look forward</span><i class="fas fa-user-alt fa-lg ml-2"></i>
-                        </div>
-                        <div class="receber  px-1 py-2 text-right">
-                            <span class="txt">Whether we can look forward</span><i class="fas fa-user-alt fa-lg ml-2"></i>
-                        </div>
-                        </div>
-
-                        <!-- Modal footer -->
-                        <div class="modal-footer">
-                        <form action="">
-                            <i class="fas fa-smile fa-lg mx-2"></i><i class="fas fa-file-pdf fa-lg mx-2"></i><i class="fas fa-image fa-lg mx-2"></i><input class="input-box" type="text" placeholder="Aa">
-                        </form>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <!--End Chatbox Modal-->
-
-            <a href="#"  onclick="topFunction()" class="back-to-top" id="backTop" style="display: inline;"><i class="fas fa-chevron-up"></i></a>
-        </div>
     </body>
 </html>
